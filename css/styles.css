@@ -538,12 +538,12 @@ margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
-    /* transition: opacity 300ms, visibility 300ms; */
+    transition: opacity 300ms, visibility 300ms;
+    
 }
 .backdrop.is-hidden .modal{
-    /* transform: scale(0.5) translate(-100%, -100%) ; */
+    transform: scale(0.5) translate(-100%, -100%);
 }
-
 
 .modal{
     width: 500px;
@@ -553,8 +553,8 @@ margin-top: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    /* transition: transform 300ms; */
+    transform: scale(1) translate(-50%, -50%);
+    transition: transform 300ms;
 }
 .modal-close{
     width: 30px;
